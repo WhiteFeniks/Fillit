@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/umoff/klaurine/Fillit/libft/libft.h
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+/Users/umoff/klaurine/Fillit/second_part.c
+unistd.h
+-
+libft/libft.h
+/Users/umoff/klaurine/Fillit/libft/libft.h
+fcntl.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+

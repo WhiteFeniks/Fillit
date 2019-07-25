@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Fillit_Itog"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fillit_Itog">
+				<Option output="/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Fillit_Itog" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/umoff/fillit_new/Fillit_Itog/."/>
+					<Add directory="/Users/umoff/fillit_new/Fillit_Itog/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fillit_Itog"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fillit_Itog/fast">
+				<Option output="/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Fillit_Itog" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/umoff/fillit_new/Fillit_Itog/."/>
+					<Add directory="/Users/umoff/fillit_new/Fillit_Itog/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fillit_Itog/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/cmake-build-debug/test_fillit">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/fillit.h">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/first_part.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_atoi.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_bzero.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_isalnum.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_isalpha.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_isascii.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_isdigit.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_isprint.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_itoa.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_memalloc.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_memccpy.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_memchr.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_memcmp.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_memcpy.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_memdel.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_memmove.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_memset.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_putchar.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_putchar_fd.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_putendl.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_putendl_fd.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_putnbr.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_putnbr_fd.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_putstr.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_putstr_fd.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_sort_array.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strcat.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strchr.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strclr.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strcmp.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strcpy.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strdel.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strdup.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strequ.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_striter.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_striteri.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strjoin.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strlcat.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strlen.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strmap.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strmapi.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strncat.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strncmp.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strncpy.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strnequ.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strnew.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strnstr.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strrchr.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strrev.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strsplit.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strstr.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strsub.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_strtrim.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_tolower.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/ft_toupper.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/includes/libft.h">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/main.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/second_part.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/third_part.c">
+			<Option target="Fillit_Itog"/>
+		</Unit>
+		<Unit filename="/Users/umoff/fillit_new/Fillit_Itog/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

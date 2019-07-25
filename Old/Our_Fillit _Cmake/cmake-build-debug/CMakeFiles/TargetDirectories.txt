@@ -1,0 +1,3 @@
+/Users/umoff/Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/umoff/Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/umoff/Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir

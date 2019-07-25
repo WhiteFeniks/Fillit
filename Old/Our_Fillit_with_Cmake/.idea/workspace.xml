@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Our_Fillit_with_Cmake" targetName="Our_Fillit_with_Cmake" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83e5be90-7fc1-45e2-955c-7b34cc83ead1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/.idea/Our_Fillit.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/author" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/first_part.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_atoi.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_bzero.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_isalnum.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_isalpha.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_isascii.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_isdigit.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_isprint.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_itoa.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_memalloc.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_memccpy.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_memchr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_memcmp.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_memcpy.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_memdel.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_memmove.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_memset.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_putchar.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_putchar_fd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_putendl.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_putendl_fd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_putnbr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_putnbr_fd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_putstr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_putstr_fd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_sort_array.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strcat.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strchr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strclr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strcmp.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strcpy.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strdel.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strdup.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strequ.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_striter.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_striteri.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strjoin.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strlcat.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strlen.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strmap.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strmapi.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strncat.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strncmp.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strncpy.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strnequ.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strnew.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strnstr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strrchr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strrev.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strsplit.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strstr.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strsub.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_strtrim.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_tolower.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/includes/ft_toupper.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/main.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/second_part.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/Our_Fillit__Cmake.dir/third_part.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/Our_Fillit__Cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/Our_Fillit__Cmake.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/cmake-build-debug/test_fillit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/fillit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/fillit.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/fillit.dSYM/Contents/Resources/DWARF/fillit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/fillit.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/first_part.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/first_part.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_atoi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_atoi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_bzero.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_bzero.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_isalnum.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_isalnum.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_isalpha.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_isalpha.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_isascii.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_isascii.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_isdigit.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_isdigit.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_isprint.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_isprint.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_itoa.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_itoa.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_memalloc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_memalloc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_memccpy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_memccpy.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_memchr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_memchr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_memcmp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_memcmp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_memcpy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_memcpy.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_memdel.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_memdel.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_memmove.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_memmove.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_memset.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_memset.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_putchar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_putchar.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_putchar_fd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_putchar_fd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_putendl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_putendl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_putendl_fd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_putendl_fd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_putnbr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_putnbr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_putnbr_fd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_putnbr_fd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_putstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_putstr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_putstr_fd.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_putstr_fd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_sort_array.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strcat.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strcat.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strchr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strchr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strclr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strclr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strcmp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strcmp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strcpy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strcpy.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strdel.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strdel.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strdup.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strdup.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strequ.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strequ.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_striter.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_striter.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_striteri.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_striteri.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strjoin.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strjoin.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strlcat.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strlcat.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strlen.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strlen.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strmap.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strmap.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strmapi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strmapi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strncat.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strncat.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strncmp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strncmp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strncpy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strncpy.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strnequ.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strnequ.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strnew.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strnew.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strnstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strnstr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strrchr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strrchr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strrev.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strrev.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strsplit.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strsplit.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strstr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strsub.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strsub.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strtrim.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_strtrim.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_tolower.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_tolower.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_toupper.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/ft_toupper.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/libft.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/includes/libft.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/second_part.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/second_part.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/third_part.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit _Cmake/third_part.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit/fillit.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Our_Fillit/fillit.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Our_Fillit/first_part.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Our_Fillit/first_part.c" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/first_part.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/test_fillit" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/Our_Fillit_with_Cmake.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1953" />
+    <option name="height" value="1337" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Our_Fillit_with_Cmake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Our_Fillit_with_Cmake" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Our_Fillit_with_Cmake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Our_Fillit_with_Cmake" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmake-build-debug" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Our_Fillit_with_Cmake" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="test_fillit" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Our_Fillit_with_Cmake" TARGET_NAME="Our_Fillit_with_Cmake" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Our_Fillit_with_Cmake" RUN_TARGET_NAME="Our_Fillit_with_Cmake">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83e5be90-7fc1-45e2-955c-7b34cc83ead1" name="Default Changelist" comment="" />
+      <created>1563892817638</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563892817638</updated>
+      <workItem from="1563892821523" duration="796000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="796000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14257348" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32931727" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="CMake" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32931727" />
+      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/first_part.c</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="buffer[0]" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>buffer[0]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/test_fillit">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_part.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

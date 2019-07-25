@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/umoff/fillit_new/Fillit_Itog/./includes/libft.h
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+/Users/umoff/fillit_new/Fillit_Itog/fillit.h
+unistd.h
+-
+./includes/libft.h
+/Users/umoff/fillit_new/Fillit_Itog/./includes/libft.h
+fcntl.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+
+/Users/umoff/fillit_new/Fillit_Itog/first_part.c
+fillit.h
+/Users/umoff/fillit_new/Fillit_Itog/fillit.h
+
+/Users/umoff/fillit_new/Fillit_Itog/main.c
+fillit.h
+/Users/umoff/fillit_new/Fillit_Itog/fillit.h
+
+/Users/umoff/fillit_new/Fillit_Itog/second_part.c
+fillit.h
+/Users/umoff/fillit_new/Fillit_Itog/fillit.h
+
+/Users/umoff/fillit_new/Fillit_Itog/third_part.c
+fillit.h
+/Users/umoff/fillit_new/Fillit_Itog/fillit.h
+

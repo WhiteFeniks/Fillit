@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/umoff/Fillit/For Dima/./includes/libft.h
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+/Users/umoff/Fillit/For Dima/grid.c
+lib_fillit.h
+/Users/umoff/Fillit/For Dima/lib_fillit.h
+
+/Users/umoff/Fillit/For Dima/lib_fillit.h
+./includes/libft.h
+/Users/umoff/Fillit/For Dima/./includes/libft.h
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+
+/Users/umoff/Fillit/For Dima/main.c
+lib_fillit.h
+/Users/umoff/Fillit/For Dima/lib_fillit.h
+
+/Users/umoff/Fillit/For Dima/matrices.c
+lib_fillit.h
+/Users/umoff/Fillit/For Dima/lib_fillit.h
+
+/Users/umoff/Fillit/For Dima/read_input.c
+lib_fillit.h
+/Users/umoff/Fillit/For Dima/lib_fillit.h
+
+/Users/umoff/Fillit/For Dima/solver.c
+lib_fillit.h
+/Users/umoff/Fillit/For Dima/lib_fillit.h
+

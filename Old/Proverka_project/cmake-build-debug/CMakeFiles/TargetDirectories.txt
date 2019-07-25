@@ -1,0 +1,3 @@
+/Users/umoff/Fillit/Proverka_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/umoff/Fillit/Proverka_project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/umoff/Fillit/Proverka_project/cmake-build-debug/CMakeFiles/Proverka_project.dir

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/umoff/Fillit/Proverka_project/fillit.h
+unistd.h
+-
+libft/libft.h
+/Users/umoff/Fillit/Proverka_project/libft/libft.h
+fcntl.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+
+/Users/umoff/Fillit/Proverka_project/libft/libft.h
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+/Users/umoff/Fillit/Proverka_project/main.c
+fillit.h
+/Users/umoff/Fillit/Proverka_project/fillit.h
+
