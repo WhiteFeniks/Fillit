@@ -1,53 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   second_part.c                                      :+:      :+:    :+:   */
+/*   part_two.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: klaurine <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/08/03 15:21:46 by klaurine          #+#    #+#             */
-/*   Updated: 2019/08/03 17:32:37 by klaurine         ###   ########.fr       */
+/*   Created: 2019/07/07 20:09:02 by klaurine          #+#    #+#             */
+/*   Updated: 2019/07/25 13:59:32 by klaurine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fillit.h"
 
-char	***create_matrix(int num_of_blocks)
+void	filling_one_matrix(int fd, char **matrix, int num_of_block)
 {
 	int		i;
 	int		j;
-	char	***matrix;
-
-	i = 0;
-	matrix = (char ***)malloc(sizeof(char **) * (num_of_blocks + 1));
-	if (matrix == NULL)
-		return (NULL);
-	while (i < num_of_blocks)
-	{
-		j = 0;
-		if (!(matrix[i] = (char **)malloc(sizeof(char *) * 5)))
-			return (NULL);
-		while (j < 4)
-		{
-			if (!(matrix[i][j] = malloc(sizeof(char) * 5)))
-				return (NULL);
-			j++;
-		}
-		matrix[i][j] = NULL;
-		i++;
-	}
-	matrix[i] = NULL;
-	return (matrix);
-}
-
-void	filling_one_matrix(int fd, char **matrix, int number, int b)
-{
-	int		i;
-	int		j;
+	int		b;
 	char	buffer[21];
 
 	i = 0;
-	ft_bzero(buffer, 21);
+	b = 0;
 	read(fd, buffer, 21);
 	while (i < 4)
 	{
@@ -55,7 +28,7 @@ void	filling_one_matrix(int fd, char **matrix, int number, int b)
 		while (j < 4)
 		{
 			if (buffer[b] == '#')
-				matrix[i][j] = 'A' + number;
+				matrix[i][j] = 'A' + num_of_block;
 			else
 				matrix[i][j] = buffer[b];
 			j++;
@@ -78,32 +51,29 @@ void	cut_row(char **matrix)
 	{
 		if (ft_strcmp(matrix[i], "....") == 0)
 		{
-			j = i;
-			free(matrix[i]);
-			matrix[i] = NULL;
-			while (j < 4)
+			j = i--;
+			while (matrix[j])
 			{
 				matrix[j] = matrix[j + 1];
 				j++;
 			}
-			i--;
 		}
 		i++;
 	}
 }
 
-int		cut_column(char **matrix, int i, int j, int counter)
+int		cut_column(char **matrix, int i, int j)
 {
 	int k;
 
-	i = 0;
+	k = 0;
 	while (matrix[i])
 	{
 		if (matrix[i][j] == '.')
-			counter++;
+			k++;
 		i++;
 	}
-	if (counter == i)
+	if (k == i)
 	{
 		i = 0;
 		while (matrix[i])
@@ -116,34 +86,39 @@ int		cut_column(char **matrix, int i, int j, int counter)
 			}
 			i++;
 		}
-		return (0);
+		j--;
 	}
-	return (1);
+	return (j);
+}
+
+void	cut_all_column(char ***matrix)
+{
+	int i;
+	int j;
+	int len;
+
+	i = 0;
+	j = 0;
+	len = ft_strlen(matrix[i][j]);
+	while (j < len)
+	{
+		j = cut_column(*matrix, i, j);
+		j++;
+	}
 }
 
 void	second_part(int fd, int num_of_blocks, char ***matrix)
 {
-	int i;
-	int j;
-	int b;
-	int k;
-	int counter;
+	int		i;
+	int		j;
 
 	i = 0;
-	counter = 0;
+	j = 0;
 	while (i < num_of_blocks)
 	{
-		j = 0;
-		b = 0;
-		k = 0;
-		filling_one_matrix(fd, matrix[i], i, b);
+		filling_one_matrix(fd, matrix[i], i);
 		cut_row(matrix[i]);
-		while (k < 4)
-		{
-			if (cut_column(matrix[i], i, j, counter))
-				j++;
-			k++;
-		}
+		cut_all_column(&matrix[i]);
 		i++;
 	}
 }

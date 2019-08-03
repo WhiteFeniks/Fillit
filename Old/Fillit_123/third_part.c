@@ -6,11 +6,30 @@
 /*   By: klaurine <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/10 20:50:13 by klaurine          #+#    #+#             */
-/*   Updated: 2019/08/03 17:33:35 by klaurine         ###   ########.fr       */
+/*   Updated: 2019/07/25 13:40:36 by klaurine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fillit.h"
+
+void	clean_figure(char **matrix, char **map, int row, int column)
+{
+	int i;
+	int j;
+
+	i = 0;
+	while (matrix[i])
+	{
+		j = 0;
+		while (matrix[i][j])
+		{
+			if (matrix[i][j] != '.')
+				map[i + row][j + column] = '.';
+			j++;
+		}
+		i++;
+	}
+}
 
 int		check_insert_figure(char **matrix, char **map, int row, int column)
 {
@@ -21,11 +40,11 @@ int		check_insert_figure(char **matrix, char **map, int row, int column)
 	while (matrix[i])
 	{
 		j = 0;
-		if (!(map[i + row]))
+		if (map[i + row] == 0)
 			return (0);
 		while (matrix[i][j])
 		{
-			if (!(map[i + row][j + column]))
+			if (map[i + row][j + column] == 0)
 				return (0);
 			if (map[i + row][j + column] != '.' && matrix[i][j] != '.')
 				return (0);
@@ -49,25 +68,6 @@ void	insert_figure(char **matrix, char **map, int row, int column)
 		{
 			if (matrix[i][j] != '.')
 				map[i + row][j + column] = matrix[i][j];
-			j++;
-		}
-		i++;
-	}
-}
-
-void	clean_figure(char **matrix, char **map, int row, int column)
-{
-	int i;
-	int j;
-
-	i = 0;
-	while (matrix[i])
-	{
-		j = 0;
-		while (matrix[i][j])
-		{
-			if (matrix[i][j] != '.')
-				map[i + row][j + column] = '.';
 			j++;
 		}
 		i++;
